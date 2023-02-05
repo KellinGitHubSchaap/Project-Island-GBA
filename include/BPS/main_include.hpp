@@ -11,7 +11,6 @@
 #include "../BPS/gba.hpp"
 
 #include "../BPS/display.hpp"
-#include "../BPS/key_inputs.hpp"
 #include "../BPS/interrupt.hpp"
 #include "../BPS/system.hpp"
 

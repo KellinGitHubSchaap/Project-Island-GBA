@@ -1,6 +1,6 @@
 #include "../include/BPS/main_include.hpp"
-#include "../assets/player/player.h"
-#include "../assets/player/player.c"
+#include "../include/actor.hpp"
+
 
 char debugText[200];
 
@@ -20,18 +20,16 @@ int main()
 
     DISPLAY_REGISTER = SCRN_LAYER_OBJ | OBJ_1D_MAPPING | DISPLAY_MODE0 | SCRN_LAYER_BG0;
     
-    Sprite* spr = new Sprite(0, playerTiles, playerTilesLen, 0, playerPal, playerPalLen);
-    
-    OAMInit(_objBuffer, 128);
+    InitPlayer();
 
-    spr->SetPosition(0, 15);
+    OAMInit(_objBuffer, 128);
 
     while(1)
     {
         VBlankIntrWait();
         ResetOAM();
 
-        spr->Render();
+        UpdatePlayer();
 
         OAMCopy(OAM_REGISTER, _objBuffer, _oamIndex);
     }

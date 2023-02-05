@@ -6,7 +6,6 @@ main.o: \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\display.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\types.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\gba.hpp \
- d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\interrupt.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\system.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\object_headers\object_attributes.hpp \
@@ -36,15 +35,15 @@ main.o: \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\emulator.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\source\bps\emulator.cpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\emulator.hpp \
- d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\player\player.h \
- d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\player\player.c
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\actor.hpp \
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp \
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\sprite.hpp
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\main_include.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\types.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\gba.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\display.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\types.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\gba.hpp:
-d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\interrupt.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\system.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\object_headers\object_attributes.hpp:
@@ -74,5 +73,6 @@ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\emulator.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\source\bps\emulator.cpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\emulator.hpp:
-d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\player\player.h:
-d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\player\player.c:
+d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\actor.hpp:
+d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp:
+d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\sprite.hpp:

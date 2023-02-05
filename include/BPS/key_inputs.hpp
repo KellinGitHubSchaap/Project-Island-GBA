@@ -30,8 +30,8 @@ typedef enum KEYPAD_BITS
 #define CURRENT_KEY_DOWN(key)   (~(KEYINPUT_REG) &key)
 #define CURRENT_KEY_UP(key)     ((KEYINPUT_REG) &key)
 
-u16 __current_key = 0;
-u16 __previous_key = 0;
+extern u16 __current_key;
+extern u16 __previous_key;
 
 INLINE void ScanKeys();     //!< Check the status of every key
 
@@ -41,25 +41,9 @@ INLINE void ScanKeys()
     __current_key = ~KEYINPUT_REG & KEY_MASK;
 }
 
-INLINE u32 GetKey(u32 key);     //!< Detect key every frame
+u32 GetKey(u32 key);     //!< Detect key every frame
+u32 GetKeyDown(u32 key);     //!< Detect key once when pressed
+u32 GetKeyUp(u32 key);      //!< Detect key once when released
 
-INLINE u32 GetKey(u32 key)
-{
-    return (__current_key &__previous_key) &key;
-}
-
-INLINE u32 GetKeyDown(u32 key);     //!< Detect key once when pressed
-
-INLINE u32 GetKeyDown(u32 key)
-{
-    return (__current_key &~__previous_key) &key;
-}
-
-INLINE u32 GetKeyUp(u32 key);      //!< Detect key once when released
-
-INLINE u32 GetKeyUp(u32 key)
-{
-    return (~__current_key &__previous_key) &key;
-}
 
 #endif // KEY_INPUTS_HPP
