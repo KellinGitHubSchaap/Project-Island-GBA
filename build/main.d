@@ -37,7 +37,9 @@ main.o: \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\emulator.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\actor.hpp \
  d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp \
- d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\sprite.hpp
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\sprite.hpp \
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\backgrounds\worldmap.h \
+ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\backgrounds\worldmap.c
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\main_include.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\types.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\gba.hpp:
@@ -76,3 +78,5 @@ d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\actor.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\key_inputs.hpp:
 d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\include\bps\sprite.hpp:
+d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\backgrounds\worldmap.h:
+d:\hobby\projectgames\zelfgemaakt\20222023\gbaprojects\ongoing\projectislandgba\assets\backgrounds\worldmap.c:

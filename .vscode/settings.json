@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "player.c": "cpp"
+        "player.c": "cpp",
+        "screentest.c": "cpp"
     }
 }
